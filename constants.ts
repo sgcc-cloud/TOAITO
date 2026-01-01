@@ -1,0 +1,11 @@
+export const API_BASE_URL: string = '/api'; // In a real app, this would be your backend URL
+export const TOTO_NUMBERS_RANGE: [number, number] = [1, 49]; // TOTO numbers from 1 to 49
+export const TOTO_DRAW_COUNT: number = 6; // 6 main numbers
+export const TOTO_LOW_NUMBER_MAX: number = 24; // Numbers 1-24 are considered "low"
+export const MONTE_CARLO_ITERATIONS: number = 10000;
+export const MAX_OVERLAPPING_NUMBERS: number = 2; // Anti-repeat filter
+export const FREQUENCY_DRAW_COUNT: number = 50; // For weighted selection
+export const HOME_PAGE_RECENT_DRAWS: number = 10;
+export const HISTORY_PAGE_LIMIT: number = 10; // Items per page for history
+export const FADE_IN_ANIMATION_DURATION: number = 0.5; // seconds
+export const BALL_ANIMATION_DELAY_STEP: number = 0.1; // seconds
